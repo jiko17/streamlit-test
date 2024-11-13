@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 
 st.title("Simple Data Dashboard")
 
+# data uploader
 uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
 
 if uploaded_file is not None:
